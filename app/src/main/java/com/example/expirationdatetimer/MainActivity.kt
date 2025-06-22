@@ -40,7 +40,6 @@ fun MessageCard(msg: Message){
         Text(msg.author)
         Text(msg.body)
         Text(msg.body2)
-
         Spacer(Modifier.padding(10.dp,10.dp))
     }
 
